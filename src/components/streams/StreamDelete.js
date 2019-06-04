@@ -4,10 +4,10 @@ import Modal from "../Modal";
 
 const StreamDelete = () => {
   const action = (
-    <div>
+    <React.Fragment>
       <button className="ui primary button negative">Delete</button>
       <button className="ui primary button">Cancel</button>
-    </div>
+    </React.Fragment>
   );
   return (
     <div>
